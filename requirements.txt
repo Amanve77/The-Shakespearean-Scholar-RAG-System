@@ -1,0 +1,9 @@
+pdfplumber
+tqdm
+chromadb
+sentence-transformers
+fastapi
+uvicorn
+ragas
+datasets
+evaluate
