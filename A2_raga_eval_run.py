@@ -4,6 +4,9 @@ from ragas.metrics import faithfulness, answer_relevancy
 
 import json
 
+import os
+os.environ["OPENAI_API_KEY"] = "sk-xxxxx" # Replace with your actual API key
+
 with open("raga_input.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
